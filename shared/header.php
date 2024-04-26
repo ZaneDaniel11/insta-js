@@ -1,15 +1,4 @@
-<?php
 
-if(!isset($title))
-{
-    $title ="Instagram";
-    $keywords ="Instagram,Share and capture world's moments,share,capture,share,home";
-  
-}
-$desc ="Instagram lets you capture,follow,Like and share world's moments in a better way and tell your story with photos,messages,post and everything in between";
-
-
-?>
 
 
 <!DOCTYPE html>

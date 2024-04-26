@@ -1,9 +1,6 @@
 <?php 
  
 
- $title="Login . Instagram";
- $keywords ="Instagram,share and capture world's moments,share,capture,share,login,signup";
-
 require "shared/header.php"
 
 ?>
@@ -13,11 +10,11 @@ require "shared/header.php"
                     <div class="heroimg"></div>
                 </div>
                 <article class="col-2"> 
-                    <form action="" class="form">
+                    <form method="POST" action="./Code/login.php" class="form">
                         <div class="SiteLogoContainer">
                             <img src="public/logo/instagram.png" alt="Instagram Logo" class="imgcontainer">
                         </div>
-                        <input type="text" placeholder="Email or Username" class="form-input" name="email_username" autocomplete="off">
+                        <input type="text" placeholder="Email or Username" class="form-input" name="user_name" autocomplete="off">
                         <div class="passwordContainer">
                         <input type="password" placeholder="Password" class="form-input" name="password" id="password" autocomplete="off">
                         <span class="show-hide-text cursor-pointer" id="show_hide_password">Show</span>
